@@ -1,0 +1,88 @@
+html {
+    background-color: cornflowerblue;
+}
+
+body {
+    background-color: #3e3e42;
+    width: 96%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header nav {
+    background-color: black;
+    width: 75%;
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header #logo {
+    text-align: left;
+}
+
+header #others {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: auto 1em;
+    margin-right: auto 1em;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: "Micro 5", sans-serif;
+}
+
+header #others:hover {
+    background-color: ghostwhite;
+    color: #3e3e42;
+    transition-duration: 0.5s;
+}
+
+#p {
+    width: 80%;
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin: auto 10%;
+}
+
+.gallery {
+    display: table;
+    margin: auto 12%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.gallery #img {
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    background-color: aqua;
+    color: black;
+    font-size: medium;
+    border: 2.5px dotted cornflowerblue;
+}
+
+.gallery #img:hover {
+    border: 2.5px solid ghostwhite;
+    background-color: black;
+    color: ghostwhite;
+    transition-duration: 1s;
+}
+
+footer {
+    background-color: crimson;
+    text-align: center;
+}
+
+footer h4 {
+    color: white;
+    font-weight: 600;
+    border: 0.5em solid blue;
+}
