@@ -1,3 +1,5 @@
+/* Average Page Layout */
+
 html {
     background-color: cornflowerblue;
 }
@@ -43,46 +45,89 @@ header #others:hover {
     transition-duration: 0.5s;
 }
 
-#p {
-    width: 80%;
-    background-color: lightgray;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-    margin: auto 10%;
-}
-
-.gallery {
-    display: table;
-    margin: auto 12%;
-    width: 90%;
-    height: auto;
-    text-align: center;
-}
-
-.gallery #img {
-    float: left;
-    margin-left: 0.5%;
-    margin-top: 1%;
-    background-color: aqua;
-    color: black;
-    font-size: medium;
-    border: 2.5px dotted cornflowerblue;
-}
-
-.gallery #img:hover {
-    border: 2.5px solid ghostwhite;
-    background-color: black;
-    color: ghostwhite;
-    transition-duration: 1s;
-}
-
 footer {
     background-color: crimson;
     text-align: center;
+    width: 45%;
+    margin: 1em 27.5%;
+    border: 0.5em solid blue;
 }
 
-footer h4 {
-    color: white;
+footer a {
+    text-decoration: none;
     font-weight: 600;
-    border: 0.5em solid blue;
+    font-size: larger;
+    color: white;
+}
+
+footer:hover {
+    background-color: lightcoral;
+    border: 0.5em solid skyblue;
+    transition-duration: 1s;
+}
+
+footer a:hover {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+/* Home Page Styling */
+
+#view {
+    width: 80%;
+    margin: 1% 13.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1em;
+}
+
+#view article {
+    width: 40%;
+    background-color: darkblue;
+    border: thick dashed blue;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+#view article img {
+    width: 75%;
+    height: 50%;
+    margin: auto;
+}
+
+#view article p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 1em;
+    font-family: 'Micro 5', sans-serif;
+}
+
+#view article p strong {
+    font-size: larger;
+    padding: 0.5em;
+    font-family: 'Jacquarda Bastarda 9', sans-serif;
+}
+
+#view article:hover {
+    background-color: transparent;
+    border: thick dashed transparent;
+    color: lime;
+    opacity: 75%;
+}
+
+#intro {
+    width: 80%;
+    color: white;
+    background-color: rgba(47, 79, 79, 0.70);
+    margin: 1% 10%;
+}
+
+#intro p {
+    padding: 1em;
+    width: 85%;
+    margin: auto;
 }
