@@ -29,6 +29,10 @@ header #logo {
     text-align: left;
 }
 
+header #logo img {
+    width: 30%;
+}
+
 header #others {
     padding-left: 1em;
     padding-right: 1em;
@@ -93,7 +97,7 @@ footer a:hover {
 }
 
 #view article img {
-    width: 75%;
+    width: 50%;
     height: 50%;
     margin: auto;
 }
@@ -117,12 +121,13 @@ footer a:hover {
     border: thick dashed transparent;
     color: lime;
     opacity: 75%;
+    transition-duration: 0.5s;
 }
 
 #intro {
     width: 80%;
     color: white;
-    background-color: rgba(47, 79, 79, 0.70);
+    background-color: rgba(47, 79, 79, 0.90);
     margin: 1% 10%;
 }
 
@@ -130,4 +135,6 @@ footer a:hover {
     padding: 1em;
     width: 85%;
     margin: auto;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
