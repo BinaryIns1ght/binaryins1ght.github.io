@@ -85,16 +85,15 @@ footer a:hover {
 
 #view {
     width: 80%;
-    margin: 1% 13.5%;
+    margin: 1% 22.5%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
     gap: 1em;
 }
 
 #view article {
-    width: 40%;
+    width: 30%;
     background-color: darkblue;
     border: thick dashed blue;
     padding: 1em;
@@ -104,7 +103,6 @@ footer a:hover {
 
 #view article img {
     width: 50%;
-    height: 50%;
     margin: auto;
 }
 
@@ -203,25 +201,40 @@ footer a:hover {
 
 /* Works Page Styling */
 
+#entrance {
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em;
+    border: thin solid white;
+}
+
 #imgs {
-    width: 80%;
-    margin: 1% 10%;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
-    align-content: stretch;
-    gap: 1% 2%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    gap: 0.5%;
 }
 
 #imgs article {
     width: 20%;
     text-align: center;
-    background-color: darkgray;
-    border: thin dashed darkslategray;
+    background-color: rgb(102, 102, 102);
+    border: thin dashed black;
     padding: 1em;
+    color: ghostwhite;
 }
 
 #imgs article img {
-    width: 90%;
+    width: 95%;
 }
 
 #imgs article h3 {
@@ -231,13 +244,15 @@ footer a:hover {
 
 #imgs article p {
     text-transform: capitalize;
-    font-family: 'micro 5', sans-serif;
-    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    width: 90%;
+    margin: auto;
 }
 
 #imgs article:hover {
     background-color: transparent;
-    color: white;
+    color: lime;
     border: thin solid transparent;
     transition-duration: 0.25s;
 }
