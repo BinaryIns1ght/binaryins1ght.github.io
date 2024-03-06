@@ -235,6 +235,13 @@ footer a:hover {
     font-size: larger;
 }
 
+#imgs article:hover {
+    background-color: transparent;
+    color: white;
+    border: thin solid transparent;
+    transition-duration: 0.25s;
+}
+
 /* Interests Page Styling */
 
 #fav article h2 {
