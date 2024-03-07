@@ -259,45 +259,75 @@ footer a:hover {
 
 /* Interests Page Styling */
 
+#context {
+    width: 85%;
+    margin: auto;
+    color: ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.5em;
+}
+
+#front {
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+}
+
+#fav {
+    width: 90%;
+    margin: auto;
+    background-color: darkgray;
+    border: thin dashed blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+#fav article {
+    width: 20%;
+    padding: 1em;
+    text-transform: capitalize;
+}
+
 #fav article h2 {
     font-family: 'Times New Roman', Times, serif;
 }
 
 #fav article dl dt, ol {
-    font-size: larger;
+    font-size: large;
     font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-weight: bold;
 }
 
 #fav article dl dd{
-    font-size: large;
+    font-size: medium;
     font-family: 'Micro 5', sans-serif;
 }
 
 #gems {
     list-style-type: none;
+    font-family: 'Micro 5', sans-serif;
+    font-size: x-large;
+    padding: 1em;
 }
-#azure {
-    color: azure;
+#gems li, #emoticon {
+    text-shadow: 0.1em 0.1em black;
 }
 #pearl {
     color: #E2DFD2;
 }
-#barite {
-    color: #cecdc6;
-}
 #garnet {
     color: #9A2A2A;
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 40%;
 }
 #ruby{
     color: #E0115F;
 }
 #citrine {
     color: #E4D00A;
-}
-#gold {
-    color: gold;
 }
 #topaz {
     color: #FFC067;
@@ -308,11 +338,6 @@ footer a:hover {
 #emerald {
     color: #50c878;
 }
-#alexandrite {
-    color: #60907A;
-    background-color: rgba(255, 255, 255, 0.75);
-    width: 70%;
-}
 #aquamarine {
     color: aquamarine;
 }
@@ -321,31 +346,55 @@ footer a:hover {
 }
 #bloodstone {
     color: #00928A;
-    background-color: rgba(255, 255, 255, 0.75);
-    width: 60%;
 }
 #diamond {
     color: #b9f2ff;
 }
 #sapphire {
     color: #0f52ba;
-    background-color: rgba(255, 255, 255, 0.50);
-    width: 50%;
-}
-#tanzanite {
-    color: #8551ff;
-    background-color: rgba(255, 255, 255, 0.50);
-    width: 60%;
 }
 #amethyst {
     color: #9966cc;
-    background-color: rgba(255, 255, 255, 0.50);
-    width: 55%;
 }
 
-#fav ul {
+#fav ol, ul, #music {
     font-family: 'Micro 5', sans-serif;
     font-size: x-large;
     font-weight: bold;
+}
+
+#fav #music {
     list-style-type: lower-greek;
+}
+
+/* Contact Page Styling */
+
+#sites {
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    color: ghostwhite;
+    background-color: darkslategray;
+}
+
+#sites h1, ul {
+    text-transform: capitalize;
+}
+
+#sites h1 {
+    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    text-shadow: 0.2em 0.2em black;
+}
+
+#sites a {
+    color: white;
+    text-decoration: none;
+    padding: 0.2em;
+    font-size: larger;
+}
+
+#sites a:hover {
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
 }
