@@ -104,10 +104,9 @@ footer a {
     font-family: 'Micro 5', sans-serif;
 }
 
-#view article p strong {
+#view article h4 {
     font-size: larger;
-    padding: 0.5em;
-    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #view article:hover {
@@ -133,6 +132,14 @@ footer a {
     font-family: 'Times New Roman', Times, serif;
 }
 
+#intro h2 {
+    font-size: larger;
+    width: 85%;
+    margin: auto;
+    padding: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* About Page Styling */
 
 #bio {
@@ -154,7 +161,7 @@ footer a {
 }
 
 #bio article h5 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: bold;
     padding: 1em;
@@ -255,14 +262,16 @@ footer a {
     color: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.5em;
+    font-size: larger;
 }
 
 #front {
     width: 80%;
     margin: auto;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Micro 5', sans-serif;
     padding: 1em;
+    font-size: xx-large;
 }
 
 #fav {
@@ -288,13 +297,13 @@ footer a {
 }
 
 #fav article dl dt, ol {
-    font-size: large;
-    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
 #fav article dl dd{
-    font-size: medium;
+    font-size: large;
     font-family: 'Micro 5', sans-serif;
 }
 
@@ -304,7 +313,7 @@ footer a {
     font-size: x-large;
     padding: 1em;
 }
-#gems li, #emoticon {
+#gems li {
     text-shadow: 0.1em 0.1em black;
 }
 #pearl {
