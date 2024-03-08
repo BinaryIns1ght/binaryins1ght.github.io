@@ -44,9 +44,9 @@ header #others {
     padding-right: 1em;
     margin-left: auto 1em;
     margin-right: auto 1em;
-    font-size: 3em;
+    font-size: xx-large;
     font-weight: 700;
-    font-family: "Micro 5", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header #others:hover {
@@ -263,6 +263,7 @@ footer a {
     font-family: 'Times New Roman', Times, serif;
     padding: 0.5em;
     font-size: larger;
+    text-decoration: underline;
 }
 
 #front {
@@ -307,55 +308,6 @@ footer a {
     font-family: 'Micro 5', sans-serif;
 }
 
-#gems {
-    list-style-type: none;
-    font-family: 'Micro 5', sans-serif;
-    font-size: x-large;
-    padding: 1em;
-}
-#gems li {
-    text-shadow: 0.1em 0.1em black;
-}
-#pearl {
-    color: #E2DFD2;
-}
-#garnet {
-    color: #9A2A2A;
-}
-#ruby{
-    color: #E0115F;
-}
-#citrine {
-    color: #E4D00A;
-}
-#topaz {
-    color: #FFC067;
-}
-#peridot {
-    color: #B4C424;
-}
-#emerald {
-    color: #50c878;
-}
-#aquamarine {
-    color: aquamarine;
-}
-#turquoise {
-    color: turquoise;
-}
-#bloodstone {
-    color: #00928A;
-}
-#diamond {
-    color: #b9f2ff;
-}
-#sapphire {
-    color: #0f52ba;
-}
-#amethyst {
-    color: #9966cc;
-}
-
 #fav ol, ul, #music {
     font-family: 'Micro 5', sans-serif;
     font-size: x-large;
@@ -371,6 +323,7 @@ footer a {
 #sites {
     width: 90%;
     margin: auto;
+    margin-top: 1%;
     padding: 1em;
     color: ghostwhite;
     background-color: darkslategray;
@@ -381,7 +334,7 @@ footer a {
 }
 
 #sites h1 {
-    font-family: 'Jacquarda Bastarda 9', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-shadow: 0.2em 0.2em black;
 }
 
