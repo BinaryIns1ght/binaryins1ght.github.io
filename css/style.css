@@ -18,6 +18,7 @@ header nav {
     background-color: black;
     width: 75%;
     margin: auto;
+    padding: 0.5em;
 }
 
 header a {
@@ -57,17 +58,16 @@ header #others:hover {
 
 footer {
     font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
     text-align: center;
     width: 45%;
-    margin: 1% 27.5%;
+    margin: 0.5% 27.5%;
     padding: 1em;
 }
 
 footer a {
     text-decoration: none;
-    font-weight: 600;
-    font-size: larger;
+    font-weight: bolder;
+    font-size: small;
     color: white;
 }
 
@@ -92,7 +92,7 @@ footer a {
 }
 
 #view article img {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -100,13 +100,13 @@ footer a {
     width: 80%;
     margin: auto;
     font-size: 1.5em;
-    padding: 1em;
     font-family: 'Micro 5', sans-serif;
 }
 
 #view article h4 {
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 #view article:hover {
@@ -121,7 +121,8 @@ footer a {
     width: 80%;
     color: white;
     background-color: rgba(47, 79, 79, 0.90);
-    margin: 1% 10%;
+    margin: auto;
+    margin-top: 2%;
 }
 
 #intro p {
@@ -153,6 +154,7 @@ footer a {
     border: ghostwhite;
     color: white;
     text-align: center;
+    padding: 1em;
 }
 
 #bio article img {
@@ -164,7 +166,7 @@ footer a {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     font-weight: bold;
-    padding: 1em;
+    padding-top: 0.5em;
 }
 
 #info {
@@ -209,16 +211,17 @@ footer a {
 }
 
 #imgs {
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 1%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-between;
     align-items: stretch;
     justify-content: center;
-    gap: 0.5%;
+    column-gap: 0.5%;
+    row-gap: 4%;
 }
 
 #imgs article {
@@ -259,11 +262,17 @@ footer a {
 #context {
     width: 85%;
     margin: auto;
+    margin-top: 1%;
     color: ghostwhite;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.5em;
-    font-size: larger;
     text-decoration: underline;
+}
+
+#context h4 {
+    font-size: x-large;
+    width: 80%;
+    margin: auto;
 }
 
 #front {
@@ -272,7 +281,7 @@ footer a {
     color: white;
     font-family: 'Micro 5', sans-serif;
     padding: 1em;
-    font-size: xx-large;
+    font-size: larger;
 }
 
 #fav {
@@ -298,13 +307,13 @@ footer a {
 }
 
 #fav article dl dt, ol {
-    font-size: larger;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
 #fav article dl dd{
-    font-size: large;
+    font-size: x-large;
     font-family: 'Micro 5', sans-serif;
 }
 
@@ -318,10 +327,18 @@ footer a {
     list-style-type: lower-greek;
 }
 
+#fav code {
+    font-size: x-small;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+    border: 0.1em solid black;
+    padding: 0.05em;
+}
+
 /* Contact Page Styling */
 
 #sites {
-    width: 90%;
+    width: 50%;
     margin: auto;
     margin-top: 1%;
     padding: 1em;
@@ -338,6 +355,10 @@ footer a {
     text-shadow: 0.2em 0.2em black;
 }
 
+#sites li {
+    margin-top: 1%;
+}
+
 #sites a {
     color: white;
     text-decoration: none;
@@ -349,4 +370,6 @@ footer a {
     background-color: white;
     color: black;
     text-transform: uppercase;
+    box-shadow: 0.15em 0.15em black;
 }
+
